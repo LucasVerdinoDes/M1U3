@@ -1,0 +1,73 @@
+<head><meta charset="utf-8">
+</head>
+<form action="">
+<ul>
+    <li>
+<p>
+    <label for="nom">Nombre:</label>
+    <input type="text"name="nombre"placeholder="ej: Juan">
+</p></li>
+<li>
+<p>
+    <label for="ape">Apellido:</label>
+    <input type="text"name="apellido" placeholder="ej:Perez">
+
+</p></li>
+<li>
+<p>
+<label for="pass">Contraseña:</label>
+    <input type="password"name="pass">
+</p></li>
+<li>
+    <label for="sexo">Sexo:</label>
+    <ul>
+        <li>
+            <input type="radio" name="sexo" value="Hombre">
+            <label >Hombre</label>
+        </li>
+        <li>
+            <input type="radio" name="sexo" value="mujer">
+            <label >Mujer</label>
+        </li>
+    </ul>
+</li>
+<br>
+<li>
+    <label>Hobbies</label>
+</li>
+    <ul>
+        <li>
+            <input type="checkbox" name="hobbies[]" value="cantar" id="cantar">
+            <label for="cantar">cantar</label>
+        </li>
+        <li>
+            <input type="checkbox" name="hobbies[]" value="bailar" id="bailar">
+            <label for="bailar">bailar</label>
+        </li>
+        <li>
+            <input type="checkbox" name="hobbies[]" value="viajar" id="viajar">
+            <label for="viajar">viajar</label>
+        </li>
+    </ul>
+    
+<br>
+
+   <li> <label for="Título">Título</label>
+    <select name="Título" id="">
+        <option value="primario">Primario</option>
+        <option value="secundario">Secundario</option>
+        <option value="terciario">Terciario</option>
+        <option value="universitario">Universitario</option>
+    </select>
+</li>
+<br>
+<li>
+    <label for="comentarios">Comentarios</label>
+    <textarea name="comentarios" ></textarea>
+</li></ul>
+ <p>
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Borrar">
+</p>
+
+</form>
